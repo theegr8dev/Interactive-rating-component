@@ -102,6 +102,10 @@ h1 {
   color: hsl(228, 45%, 44%);
 }
 @media screen and (max-width: 23.4375em) {
+  .container__rating,
+  .container__thank-you {
+    margin: 0 auto;
+  }
   .rate {
     width: 5rem;
     height: 5rem;
