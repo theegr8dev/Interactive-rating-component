@@ -22,7 +22,7 @@ button {
 .container__thank-you {
   background-color: hsl(213, 19%, 18%);
   max-width: 35rem;
-  margin: 25rem auto;
+  margin: 15rem auto;
   padding: 3rem 2.5rem;
   border-radius: 5%;
 }
@@ -38,8 +38,10 @@ h1 {
   font-size: 3rem;
 }
 .paragraph {
-  font-weight: 400;
+  font-weight: bold;
   font-size: 1.5rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 2;
 }
 .rates {
   display: flex;
@@ -53,9 +55,13 @@ h1 {
   /* padding: 2rem 3rem; */
   border-radius: 50%;
   font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(216, 12%, 54%);
+  outline: none;
 }
 .rate:hover {
   background-color: hsl(25, 97%, 53%);
+  outline: none;
 }
 .submit {
   background-color: hsl(25, 97%, 53%);
@@ -101,11 +107,14 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media screen and (max-width: 23.4375em) {
+@media screen and (max-width: 28.75em) {
   .container__rating,
   .container__thank-you {
-    margin: 0 auto;
+    margin: 10rem auto;
   }
+}
+
+@media screen and (max-width: 23.4375em) {
   .rate {
     width: 5rem;
     height: 5rem;
