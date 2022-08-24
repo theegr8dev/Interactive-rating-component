@@ -59,6 +59,10 @@ h1 {
   color: hsl(216, 12%, 54%);
   outline: none;
 }
+.rate-click {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
 .rate:hover {
   background-color: hsl(25, 97%, 53%);
   outline: none;
